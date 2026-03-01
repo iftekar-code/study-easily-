@@ -1,4 +1,4 @@
-import { supabase } from './supabase';
+import { supabase } from '../config/supabase';
 import { storageService } from './storage.service';
 
 export interface Infographic {

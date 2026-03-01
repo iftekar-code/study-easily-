@@ -2,7 +2,7 @@ import { NoteCard } from './NoteCard';
 import { SearchBar } from './SearchBar';
 import { SkeletonList } from '../common/Loader';
 import { HiDocumentText, HiBarsArrowDown } from 'react-icons/hi2';
-import type { Note } from '../../services/notes.service';
+import type { Note } from '../../../backend/services/notes.service';
 import './NoteList.css';
 
 interface NoteListProps {

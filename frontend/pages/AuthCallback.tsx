@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { supabase } from '../services/supabase';
+import { supabase } from '../../backend/config/supabase';
 import { Spinner } from '../components/common/Loader';
 
 export default function AuthCallback() {

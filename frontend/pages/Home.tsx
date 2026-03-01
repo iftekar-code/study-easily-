@@ -10,10 +10,10 @@ import { GenerationProgress } from '../components/infographics/GenerationProgres
 import { generateInfographic } from '../components/infographics/InfographicGenerator';
 import { Modal } from '../components/common/Modal';
 import { CLASS_10_SUBJECTS, type Subject } from '../data/subjectChapters';
-import { notesService } from '../services/notes.service';
+import { notesService } from '../../backend/services/notes.service';
 import { HiDocumentText, HiSparkles, HiChevronDown, HiBookOpen } from 'react-icons/hi2';
 import { toast } from 'react-toastify';
-import type { Note } from '../services/notes.service';
+import type { Note } from '../../backend/services/notes.service';
 import './Home.css';
 
 // ─── Subject Accordion Component ────────────────────────────────────────────

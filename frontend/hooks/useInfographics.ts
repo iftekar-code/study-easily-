@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { infographicsService, type Infographic } from '../services/infographics.service';
+import { infographicsService, type Infographic } from '../../backend/services/infographics.service';
 import { useAuth } from '../contexts/AuthContext';
 
 export function useInfographics() {

@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { notesService, type Note, type NoteInsert, type NoteUpdate } from '../services/notes.service';
+import { notesService, type Note, type NoteInsert, type NoteUpdate } from '../../backend/services/notes.service';
 
 export function useNotes() {
     const [notes, setNotes] = useState<Note[]>([]);

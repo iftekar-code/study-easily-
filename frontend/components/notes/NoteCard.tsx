@@ -1,5 +1,5 @@
 import { HiClock, HiBookOpen } from 'react-icons/hi2';
-import type { Note } from '../../services/notes.service';
+import type { Note } from '../../../backend/services/notes.service';
 import './NoteCard.css';
 
 interface NoteCardProps {

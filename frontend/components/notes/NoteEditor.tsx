@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Modal } from '../common/Modal';
 import { CATEGORY_TO_SUBJECT, CLASS_10_SUBJECTS } from '../../data/subjectChapters';
-import type { Note, NoteInsert } from '../../services/notes.service';
+import type { Note, NoteInsert } from '../../../backend/services/notes.service';
 import './NoteEditor.css';
 
 interface NoteEditorProps {

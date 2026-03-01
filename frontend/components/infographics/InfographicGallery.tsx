@@ -2,7 +2,7 @@ import { HiTrash, HiArrowDownTray, HiPhoto } from 'react-icons/hi2';
 import { SkeletonList } from '../common/Loader';
 import { Modal } from '../common/Modal';
 import { useState } from 'react';
-import type { Infographic } from '../../services/infographics.service';
+import type { Infographic } from '../../../backend/services/infographics.service';
 import './InfographicGallery.css';
 
 interface InfographicGalleryProps {

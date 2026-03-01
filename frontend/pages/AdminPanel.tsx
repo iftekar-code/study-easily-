@@ -3,8 +3,8 @@ import { useNotes } from '../hooks/useNotes';
 import { NoteEditor } from '../components/notes/NoteEditor';
 import { Modal } from '../components/common/Modal';
 import { SkeletonList } from '../components/common/Loader';
-import { audioService, type AudioFile } from '../services/audio.service';
-import type { Note, NoteInsert } from '../services/notes.service';
+import { audioService, type AudioFile } from '../../backend/services/audio.service';
+import type { Note, NoteInsert } from '../../backend/services/notes.service';
 import { toast } from 'react-toastify';
 import {
     HiDocumentText,
