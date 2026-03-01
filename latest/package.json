@@ -1,5 +1,6 @@
 {
   "name": "latest",
+  "homepage": "https://github.com/iftekar-code/webapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
