@@ -48,3 +48,4 @@ I0306 20:55:34.385105    7092 load.go:109] Finished reloading
 I0306 20:55:34.567593    7092 dev.go:104] Listening on address (HTTP + gRPC): 127.0.0.1:50001
  {"metadata":{"emulator":{"name":"dataconnect"},"message":"E0306 20:55:34.385105    7092 installsdk.go:88] Failed to install package: exit status 0xc000013a\nI0306 20:55:34.385105    7092 load.go:109] Finished reloading\nI0306 20:55:34.567593    7092 dev.go:104] Listening on address (HTTP + gRPC): 127.0.0.1:50001\n"}}
 [info] [Firebase Plugin] Stopping Data Connect toolkit
+[debug] [2026-03-06T15:46:41.878Z] [Firebase Plugin] Activating Firebase extension.
